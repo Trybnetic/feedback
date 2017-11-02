@@ -15,4 +15,5 @@ $sql_server = "";
 $sql_user = "";
 $sql_db = "";
 $sql_pw = "";
+$sql_table = "";
 ?>
