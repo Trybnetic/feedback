@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $datum = date("Y-m-d");
     $uhrzeit = date("H:i");
     insert($name, $datum, $uhrzeit, $text, $sql_server, $sql_user, $sql_pw, $sql_db, $sql_table);
-    send($name, $text, $mail_server, $mail_port, $mail_user, $bot_mail, $user_mail);
+    send($name, $text, $mail_server, $mail_port, $mail_user, $mail_pw, $sender_mail, $sender_friendlyname, $recipient_mail, $mail_subject);
   }
 } else {
   require_once "_layouts/form.php";
