@@ -1,5 +1,7 @@
 # Feedback
 
+[![License](https://img.shields.io/github/license/Trybnetic/feedback.svg)](https://github.com/Trybnetic/feedback/blob/master/LICENSE.txt)  
+
 This feedback script is forked from Tim Beckmann ([@elogy ](https://github.com/elogy/)) and provides a small website to give feedback anonymously. In comparison to elogy's [feedbackscript](https://github.com/elogy/feedbackscript) this fork uses the [Foundation CSS Framework](https://foundation.zurb.com/) for styling.
 
 ## Installation
@@ -50,3 +52,11 @@ Once the table is set up, you can (and probably should) delete this file.
 ## Usage
 After installation you can provide the link to the `index.php` or to the folder of the `index.php` file to the group of people you want to get feedback from.  
 Once a new entry is received, it is recorded in the MySQL database, along with a timestamp and a pseudonym, if the student chose one. Moreover, you will receive an mail to the mail adress provided in `settings.php` once there is a new entry.
+
+## Authors
+See also the list of [contributors](https://github.com/Trybnetic/feedback/contributors) who participated in this
+project.
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/Trybnetic/feedback/blob/master/LICENSE.txt) file for details
